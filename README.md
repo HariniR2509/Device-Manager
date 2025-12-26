@@ -9,12 +9,12 @@ The Electron desktop application that can detect connected Serial / USB devices,
 
    Device data is stored in devices.json
 
-   Path: C:\Users\<USERNAME>\AppData\Roaming\Electron\devices.json
+   **Path:** C:\Users\<USERNAME>\AppData\Roaming\Electron\devices.json
    
 5. Known vs New Devices
 6. Electron Architecture
    
-   **Main Process:**
+   ***Main Process:***
    
      Runs main.js
    
@@ -22,13 +22,13 @@ The Electron desktop application that can detect connected Serial / USB devices,
    
      Handles IPC communication
 
-   **Preload:**
+   ***Preload:***
    
     Bridge between Renderer and Main
    
     Exposes only safe functions to UI
 
-   **Renderer:**
+   ***Renderer:***
    
     Application UI(HTML/JS/CSS)
    
@@ -36,7 +36,7 @@ The Electron desktop application that can detect connected Serial / USB devices,
 
 The application detects only Serial and serial-class USB devices. Storage devices are not detected.
 
-**Setup:**
+#**Setup:**
        
       git clone <your-repo>
    
@@ -44,10 +44,10 @@ The application detects only Serial and serial-class USB devices. Storage device
    
       npm install
 
-**Run the App:**
+#**Run the App:**
 
     npm start
 
-**Application User Interface**
+#**Application User Interface**
 
 <img width="1101" height="732" alt="App UI" src="https://github.com/user-attachments/assets/76c53e5f-8eb0-441e-a7f5-2687be033e46" />
