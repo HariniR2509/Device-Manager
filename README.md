@@ -14,11 +14,11 @@ Functional Requirements
      Manages OS-level functionality
      Handles IPC communication
 
-  Preload:
+   Preload:
     Bridge between Renderer and Main
     Exposes only safe functions to UI
 
-  Renderer:
+   Renderer:
     Application UI(HTML/JS/CSS)
     Calls preload functions 
 
