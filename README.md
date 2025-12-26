@@ -25,12 +25,12 @@ Functional Requirements
 The application detects only Serial and serial-class USB devices. Storage devices are not detected.
 
 **Setup:**
-
-   1. git clone <your-repo>
+       
+      git clone <your-repo>
    
-   2. cd device-manager
+      cd device-manager
    
-   3. npm install
+      npm install
 
 **Run the App:**
 
