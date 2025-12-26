@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Device Manager</title>
+  <style>
+    table { width: 100%; border-collapse: collapse; }
+    th, td { border: 1px solid #ccc; padding: 8px; }
+    th { background: #f4f4f4; }
+  </style>
+</head>
+<body>
+
+<h2>USB / Serial Device Manager</h2>
+<button onclick="refresh()">Refresh</button>
+
+<table>
+  <thead>
+    <tr>
+      <th>Port</th>
+      <th>VID</th>
+      <th>PID</th>
+      <th>Status</th>
+      <th>Label</th>
+      <th>Notes</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody id="deviceTable"></tbody>
+</table>
+
+<script src="renderer.js"></script>
+</body>
+</html>
