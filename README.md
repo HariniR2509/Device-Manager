@@ -6,8 +6,13 @@ Functional Requirements
 1. Device Detection
 2. User Interface
 3. Local Storage
-4. Known vs New Devices
-5. Electron Architecture
+
+   Device data is stored in devices.json
+
+   Path: C:\Users\<USERNAME>\AppData\Roaming\Electron\devices.json
+   
+5. Known vs New Devices
+6. Electron Architecture
    
    **Main Process:**
    
