@@ -11,15 +11,21 @@ Functional Requirements
    
    **Main Process:**
      Runs main.js
+   
      Manages OS-level functionality
+   
      Handles IPC communication
 
    **Preload:**
+   
     Bridge between Renderer and Main
+   
     Exposes only safe functions to UI
 
    **Renderer:**
+   
     Application UI(HTML/JS/CSS)
+   
     Calls preload functions 
 
 The application detects only Serial and serial-class USB devices. Storage devices are not detected.
