@@ -10,6 +10,7 @@ Functional Requirements
 5. Electron Architecture
    
    **Main Process:**
+   
      Runs main.js
    
      Manages OS-level functionality
