@@ -16,27 +16,27 @@ The Electron desktop application that can detect connected Serial / USB devices,
    
    ***Main Process:***
    
-     Runs main.js
+     i) Runs main.js
    
-     Manages OS-level functionality
+     ii) Manages OS-level functionality
    
-     Handles IPC communication
+     iii) Handles IPC communication
 
    ***Preload:***
    
-    Bridge between Renderer and Main
+    i) Bridge between Renderer and Main
    
-    Exposes only safe functions to UI
+    ii) Exposes only safe functions to UI
 
    ***Renderer:***
    
-    Application UI(HTML/JS/CSS)
+    i) Application UI(HTML/JS/CSS)
    
-    Calls preload functions 
+    ii) Calls preload functions 
 
 The application detects only Serial and serial-class USB devices. Storage devices are not detected.
 
-#**Setup:**
+**Setup:**
        
       git clone <your-repo>
    
@@ -44,7 +44,7 @@ The application detects only Serial and serial-class USB devices. Storage device
    
       npm install
 
-#**Run the App:**
+**Run the App:**
 
     npm start
 
