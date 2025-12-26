@@ -36,4 +36,6 @@ The application detects only Serial and serial-class USB devices. Storage device
 
     npm start
 
+**Application User Interface**
+
 <img width="1101" height="732" alt="App UI" src="https://github.com/user-attachments/assets/76c53e5f-8eb0-441e-a7f5-2687be033e46" />
