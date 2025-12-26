@@ -9,17 +9,28 @@ Functional Requirements
 4. Known vs New Devices
 5. Electron Architecture
    
-   Main Process:
+   **Main Process:**
      Runs main.js
      Manages OS-level functionality
      Handles IPC communication
 
-   Preload:
+   **Preload:**
     Bridge between Renderer and Main
     Exposes only safe functions to UI
 
-   Renderer:
+   **Renderer:**
     Application UI(HTML/JS/CSS)
     Calls preload functions 
 
 The application detects only Serial and serial-class USB devices. Storage devices are not detected.
+
+**Setup:**
+
+git clone <your-repo>
+cd device-manager
+npm install
+
+**Run the App:**
+
+npm start
+
