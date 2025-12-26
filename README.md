@@ -16,7 +16,7 @@ The Electron desktop application that can detect connected Serial / USB devices,
 5. Known vs New Devices
 6. Electron Architecture
    
-   ***Main Process:***
+   #***Main Process:***
    
      i) Runs main.js
    
@@ -24,13 +24,13 @@ The Electron desktop application that can detect connected Serial / USB devices,
    
      iii) Handles IPC communication
 
-   ***Preload:***
+   #***Preload:***
    
     i) Bridge between Renderer and Main
    
     ii) Exposes only safe functions to UI
 
-   ***Renderer:***
+   #***Renderer:***
    
     i) Application UI(HTML/JS/CSS)
    
