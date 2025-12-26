@@ -9,7 +9,9 @@ The Electron desktop application that can detect connected Serial / USB devices,
 
    Device data is stored in devices.json
 
-   **Path:** C:\Users\<USERNAME>\AppData\Roaming\Electron\devices.json
+   **Path:**
+
+   C:\Users\<USERNAME>\AppData\Roaming\Electron\devices.json
    
 5. Known vs New Devices
 6. Electron Architecture
